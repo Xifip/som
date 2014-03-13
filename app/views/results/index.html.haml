@@ -1,0 +1,12 @@
+.span8
+%h3
+  = 'Results of run ' + @run.id.to_s
+.row
+  %ul
+    %li
+      = link_to 'back to runs list', runs_path
+    %li
+      = "Run description: " + @run.title   
+- if @results.any?
+  %ul.results_items.list-group
+    = render @results

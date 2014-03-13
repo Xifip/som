@@ -1,0 +1,44 @@
+!!! 5
+- env = Rails.application.assets.is_a?(Sprockets::Index) ? Rails.application.assets.instance_variable_get('@environment') : Rails.application.assets
+%html
+  %head
+    %title Som
+    = stylesheet_link_tag "application", :media => "all"
+    = javascript_include_tag "application"
+    = yield :javascript_includes
+    = csrf_meta_tags
+    /[if lt IE 9]
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  %body
+    .wrapper
+      %header.navbar.navbar-inverse.navbar-fixed-top
+        .navbar-inner
+          #header.collapse.in.container
+            .row
+              #logo.span2
+                %a{:href => root_path}
+              .span7      
+                %nav
+                  %ul.nav.pull-right                    
+                    %li= link_to "Home", root_path  
+                    - if user_signed_in?               
+                      %li
+                        .btn-group
+                          = link_to "Runs", runs_path, class: "btn btn-info"
+                      %li
+                        = link_to current_user.email, edit_user_registration_path                       
+                      %li
+                        = link_to "Logout", destroy_user_session_path, { method: :delete, id: "sign_out" }                    
+                    - else               
+                      %li
+                        = link_to "Sign up", new_user_registration_path
+                      %li
+                        = link_to "Login", new_user_session_path
+              #branding.span3
+                %nav
+                  %ul.nav.bannerText2
+                    %li= link_to "RST development", root_path 
+      .container
+        - flash.each do |key, value|
+          = content_tag(:div, value, class: "alert alert-#{key}")      
+        = yield
