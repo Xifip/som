@@ -1,0 +1,154 @@
+name,description
+subjectid,subjectid
+profilecreatedate,profilecreatedate
+age,age
+birthyear,birthyear
+gender,gender
+occupation,occupation
+jobposition,jobposition
+children,children
+coachingflag,coachingflag
+automatedcoachingflag,automatedcoachingflag
+rev,rev
+state,state
+zip,zip
+zipfix,zipfix
+lifestyle2,What time do you have to wake up on weekdays/workdays in order to start your day successfully?
+lifestyle11,How many days during a typical week do you wake up early because of light coming in from outside?
+lifestyle3,How many days during a typical week do you hit the snooze button more than 2 times?
+lifestyle12,Do you have a mattress more than 7 years old?
+lifestyle1,Is your pillow more than 2 years old?
+lifestyle4,"Work irregular shifts, split shifts, or the night shift?"
+lifestyle5,Travel and/or sleep away from your usual bed?
+lifestyle6,"Smoke or use any other nicotine product, including nictotine gum or patches?"
+lifestyle8,Drink more than 3 caffeinated beverages in a day?
+lifestyle9,Drink any caffeinated beverages after 3:00pm?
+sleepertype11,Nap or doze off after dinner time?
+sleepertype13,Drink alcohol socially within 3 hours of bedtime or use alcohol to help you fall
+sleepertype14,Exercise within 3 hours of going to bed?
+sleepertype15,Eat a full meal within 2 hours of bedtime?
+sleepertype16,Have emotional discussions close to bedtime that prevent you from falling asleep
+sleepertype17,"Use the computer, phone, or TV, or work within 1 hour of bedtime?"
+sleepertype18,"Do anything in your bed other than sleep or have sex (i.e. work in bed, read, etc.)?"
+sleepertype19,Go to bed when you are most sleepy?
+sleepertype20,Catch a second wind at bedtime and then find it difficult to fall asleep?
+sleepertype21,"Go to bed at the same time (within 20 minutes), including weekends?"
+sleepertype22,Read in bed with a bright overhead light?
+sleepertype23,"Worry about work, world events, finances or family issues while lying in bed?"
+sleepertype24,"Find that you are unable to ""turn off your mind"" when it's time to go to sleep?"
+sleepertype25,Find that sleep becomes a lower priority because of other needs?
+sleeperclassification1,"During a typical week, how long does it take you to fall asleep at night?"
+sleeperclassification2,"In a typical week, how many times do you wake up during the night?"
+sleeperclassification3,How much sleep do you think you need to feel your best every day?
+sleeperclassification4,"Share your bed with a pet, child, or partner, and find that it disrupts your sleep?"
+sleeperclassification5,Have your sleep disrupted by noise?
+sleeperclassification6,Need to use the restroom after falling asleep?
+sleeperclassification7,Go to bed thirsty or wake up in the night needing a drink of water?
+sleeperclassification8,Have your sleep disturbed by someone in your household (such as a child or a pet)?
+sleeperclassification10,Notice that it is too hot or cold in your bedroom to be comfortable for sleeping?
+sleeperclassification9,"In general, when you wake up in the morning, how do you feel you slept that night?"
+goal9,Decrease the time that it takes me to fall asleep
+goal10,Sleep through the entire night
+goal11,Get more sleep at night
+goal1,Get more restorative sleep
+goal2,Wake up more easily in the morning
+goal3,Feel better in the morning
+goal4,Be in a better mood during the day
+goal5,Improve focus during the day
+goal6,Have more energy during the day
+goal7,Feel better about the way I sleep
+goal8,Learn more about how I'm sleeping at night
+profilecreatedatefix,profilecreatedatefix
+genderfix,genderfix
+occupationfix,occupationfix
+jobpositionfix,jobpositionfix
+revfix,revfix
+lifestyle2fix,What time do you have to wake up on weekdays/workdays in order to start your day successfully?
+zip_state,zip_state
+nightid,nightid
+recorddate,recorddate
+zq,zq
+totalz,totalz
+timeinwake,timeinwake
+timeinrem,timeinrem
+timeinlight,timeinlight
+timeindeep,timeindeep
+timeswoken,timeswoken
+timetoz,timetoz
+morningfeel,I slept...(Subjective Sleep Feel)
+hypnostarttime,hypnostarttime
+nightstarttime,nightstarttime
+alarmtime,alarmtime
+alarmofftime,alarmofftime
+risetime,risetime
+nightendtime,nightendtime
+snoozes,"If a subject presses the snooze button more than 8 times, "
+snoozelength,snoozelength
+alarmreason,Reason for the most recent alarm ringing
+waketone,waketone
+napflag,napflag
+assignedtostep,assignedtostep
+recorddatefix,recorddatefix
+hypnostarttimefix,hypnostarttimefix
+nightstarttimefix,nightstarttimefix
+alarmtimefix,alarmtimefix
+alarmofftimefix,alarmofftimefix
+risetimefix,risetimefix
+nightendtimefix,nightendtimefix
+_merge1,Results of Profile/Sleep Dataset Merge
+journalid,journalid
+journaldate,journaldate
+morningfeelscore,How did you feel you slept last night? (Subjective Sleep Feel Score)
+dayfeelmoodscore,How did you feel today? (Mood)
+dayfeelfocusscore,How did you feel today? (Focus)
+dayfeelenergyscore,How did you feel today? (Energy)
+stealer1,Did you have enough time to wind down before you had to turn out the lights last night?
+stealer4,How sleepy were you when you went to bed last night?
+stealer5,How much trouble did you have turning off your mind when going to sleep last night?
+stealer6,How stressed or anxious were you last night because of anticipation for work or an appointment today?
+stealer7,How tense were you before bed last night?
+stealer8,"How comfortable was your bed last night (pillow, mattress, bed covers, etc)?"
+stealer9,How noisy was it last night?
+stealer10,How light was your room when you woke up this morning?
+stealer11,How was the temperature in your room last night?
+stealer12,How familiar was your sleeping environment last night?
+stealer13,How ideal was your bedroom for sleeping last night?
+stealer14,How close to bedtime did you exercise yesterday?
+stealer15,How much time did you set aside to wind down before bedtime last night?
+stealer17,How emotional were any conversations you had last night?
+stealer18,"How stimulating were your activities (computer, phone, TV, etc.) within 1 hour of bedtime last night?"
+stealer19,How late were you up working last night?
+stealer20,How full were you when you went to bed last night?
+stealer21,How hungry were you when you went to bed last night?
+stealer22,How badly were you experiencing heartburn at bedtime last night?
+stealer23,How much caffeine did you have after 3:00pm yesterday?
+stealer24,How much alcohol did you have within 3 hours of bedtime last night?
+stealer25,How thirsty were you while in bed last night?
+stealer26,How many times did you need to use the restroom during the night?
+stealer27,"How much was your sleep disrupted by someone else (partner, children, pets, etc.) last night?"
+stealer28,How disruptive were your hot flashes last night?
+stealer29,How much did dreaming affect the quality of your sleep last night?
+createdate,createdate
+journallastmodifieddate,journallastmodifieddate
+createdatefix,createdatefix
+journallastmodifieddatefix,journallastmodifieddatefix
+_merge2,Results of Profile/Journal Dataset Merge
+_merge3,Results of the Profile-Sleep/Profile-Journal Dataset Merge
+date_start1,Manual Coaching Step 1 Start Date
+date_end1,Manual Coaching Step 1 End Date
+date_start2,date_start2
+date_end2,date_end2
+date_start3,date_start3
+date_end3,date_end3
+date_start4,date_start4
+date_end4,date_end4
+date_start5,date_start5
+date_end5,date_end5
+date_start6,date_start6
+date_end6,date_end6
+date_start7,date_start7
+date_end7,date_end7
+date_start8,date_start8
+date_end8,date_end8
+_merge4,_merge4
+manualcoachingstep,Assigned to Manual Step

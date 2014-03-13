@@ -31,6 +31,8 @@ end
 
 gem 'jquery-rails'
 gem 'haml'
+gem 'debugger'
+gem 'aws-sdk', '~> 1.0'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

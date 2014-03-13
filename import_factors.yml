@@ -1,0 +1,461 @@
+factors_records = [
+{ name: "subjectid", 
+ description: "subjectid desc" 
+},
+{ name: "profilecreatedate", 
+ description: "profilecreatedate" 
+},
+{ name: "age", 
+ description: "age" 
+},
+{ name: "birthyear", 
+ description: "birthyear" 
+},
+{ name: "gender", 
+ description: "gender" 
+},
+{ name: "occupation", 
+ description: "occupation" 
+},
+{ name: "jobposition", 
+ description: "jobposition" 
+},
+{ name: "children", 
+ description: "children" 
+},
+{ name: "coachingflag", 
+ description: "coachingflag" 
+},
+{ name: "automatedcoachingflag", 
+ description: "automatedcoachingflag" 
+},
+{ name: "rev", 
+ description: "rev" 
+},
+{ name: "state", 
+ description: "state" 
+},
+{ name: "zip", 
+ description: "zip" 
+},
+{ name: "zipfix", 
+ description: "zipfix" 
+},
+{ name: "lifestyle2", 
+ description: "lifestyle2" 
+},
+{ name: "lifestyle11", 
+ description: "lifestyle11" 
+},
+{ name: "lifestyle3", 
+ description: "lifestyle3" 
+},
+{ name: "lifestyle12", 
+ description: "lifestyle12" 
+},
+{ name: "lifestyle1", 
+ description: "lifestyle1" 
+},
+{ name: "lifestyle4", 
+ description: "lifestyle4" 
+},
+{ name: "lifestyle5", 
+ description: "lifestyle5" 
+},
+{ name: "lifestyle6", 
+ description: "lifestyle6" 
+},
+{ name: "lifestyle8", 
+ description: "lifestyle8" 
+},
+{ name: "lifestyle9", 
+ description: "lifestyle9" 
+},
+{ name: "sleepertype11", 
+ description: "sleepertype11" 
+},
+{ name: "sleepertype13", 
+ description: "sleepertype13" 
+},
+{ name: "sleepertype14", 
+ description: "sleepertype14" 
+},
+{ name: "sleepertype15", 
+ description: "sleepertype15" 
+},
+{ name: "sleepertype16", 
+ description: "sleepertype16" 
+},
+{ name: "sleepertype17", 
+ description: "sleepertype17" 
+},
+{ name: "sleepertype18", 
+ description: "sleepertype18" 
+},
+{ name: "sleepertype19", 
+ description: "sleepertype19" 
+},
+{ name: "sleepertype20", 
+ description: "sleepertype20" 
+},
+{ name: "sleepertype21", 
+ description: "sleepertype21" 
+},
+{ name: "sleepertype22", 
+ description: "sleepertype22" 
+},
+{ name: "sleepertype23", 
+ description: "sleepertype23" 
+},
+{ name: "sleepertype24", 
+ description: "sleepertype24" 
+},
+{ name: "sleepertype25", 
+ description: "sleepertype25" 
+},
+{ name: "sleeperclassification1", 
+ description: "sleeperclassification1" 
+},
+{ name: "sleeperclassification2", 
+ description: "sleeperclassification2" 
+},
+{ name: "sleeperclassification3", 
+ description: "sleeperclassification3" 
+},
+{ name: "sleeperclassification4", 
+ description: "sleeperclassification4" 
+},
+{ name: "sleeperclassification5", 
+ description: "sleeperclassification5" 
+},
+{ name: "sleeperclassification6", 
+ description: "sleeperclassification6" 
+},
+{ name: "sleeperclassification7", 
+ description: "sleeperclassification7" 
+},
+{ name: "sleeperclassification8", 
+ description: "sleeperclassification8" 
+},
+{ name: "sleeperclassification10", 
+ description: "sleeperclassification10" 
+},
+{ name: "sleeperclassification9", 
+ description: "sleeperclassification9" 
+},
+{ name: "goal9", 
+ description: "goal9" 
+},
+{ name: "goal10", 
+ description: "goal10" 
+},
+{ name: "goal11", 
+ description: "goal11" 
+},
+{ name: "goal1", 
+ description: "goal1" 
+},
+{ name: "goal2", 
+ description: "goal2" 
+},
+{ name: "goal3", 
+ description: "goal3" 
+},
+{ name: "goal4", 
+ description: "goal4" 
+},
+{ name: "goal5", 
+ description: "goal5" 
+},
+{ name: "goal6", 
+ description: "goal6" 
+},
+{ name: "goal7", 
+ description: "goal7" 
+},
+{ name: "goal8", 
+ description: "goal8" 
+},
+{ name: "profilecreatedatefix", 
+ description: "profilecreatedatefix" 
+},
+{ name: "genderfix", 
+ description: "genderfix" 
+},
+{ name: "occupationfix", 
+ description: "occupationfix" 
+},
+{ name: "jobpositionfix", 
+ description: "jobpositionfix" 
+},
+{ name: "revfix", 
+ description: "revfix" 
+},
+{ name: "lifestyle2fix", 
+ description: "lifestyle2fix" 
+},
+{ name: "zip_state", 
+ description: "zip_state" 
+},
+{ name: "nightid", 
+ description: "nightid" 
+},
+{ name: "recorddate", 
+ description: "recorddate" 
+},
+{ name: "zq", 
+ description: "zq" 
+},
+{ name: "totalz", 
+ description: "totalz" 
+},
+{ name: "timeinwake", 
+ description: "timeinwake" 
+},
+{ name: "timeinrem", 
+ description: "timeinrem" 
+},
+{ name: "timeinlight", 
+ description: "timeinlight" 
+},
+{ name: "timeindeep", 
+ description: "timeindeep" 
+},
+{ name: "timeswoken", 
+ description: "timeswoken" 
+},
+{ name: "timetoz", 
+ description: "timetoz" 
+},
+{ name: "morningfeel", 
+ description: "morningfeel" 
+},
+{ name: "hypnostarttime", 
+ description: "hypnostarttime" 
+},
+{ name: "nightstarttime", 
+ description: "nightstarttime" 
+},
+{ name: "alarmtime", 
+ description: "alarmtime" 
+},
+{ name: "alarmofftime", 
+ description: "alarmofftime" 
+},
+{ name: "risetime", 
+ description: "risetime" 
+},
+{ name: "nightendtime", 
+ description: "nightendtime" 
+},
+{ name: "snoozes", 
+ description: "snoozes" 
+},
+{ name: "snoozelength", 
+ description: "snoozelength" 
+},
+{ name: "alarmreason", 
+ description: "alarmreason" 
+},
+{ name: "waketone", 
+ description: "waketone" 
+},
+{ name: "napflag", 
+ description: "napflag" 
+},
+{ name: "assignedtostep", 
+ description: "assignedtostep" 
+},
+{ name: "recorddatefix", 
+ description: "recorddatefix" 
+},
+{ name: "hypnostarttimefix", 
+ description: "hypnostarttimefix" 
+},
+{ name: "nightstarttimefix", 
+ description: "nightstarttimefix" 
+},
+{ name: "alarmtimefix", 
+ description: "alarmtimefix" 
+},
+{ name: "alarmofftimefix", 
+ description: "alarmofftimefix" 
+},
+{ name: "risetimefix", 
+ description: "risetimefix" 
+},
+{ name: "nightendtimefix", 
+ description: "nightendtimefix" 
+},
+{ name: "_merge1", 
+ description: "_merge1" 
+},
+{ name: "journalid", 
+ description: "journalid" 
+},
+{ name: "journaldate", 
+ description: "journaldate" 
+},
+{ name: "morningfeelscore", 
+ description: "morningfeelscore" 
+},
+{ name: "dayfeelmoodscore", 
+ description: "dayfeelmoodscore" 
+},
+{ name: "dayfeelfocusscore", 
+ description: "dayfeelfocusscore" 
+},
+{ name: "dayfeelenergyscore", 
+ description: "dayfeelenergyscore" 
+},
+{ name: "stealer1", 
+ description: "stealer1" 
+},
+{ name: "stealer4", 
+ description: "stealer4" 
+},
+{ name: "stealer5", 
+ description: "stealer5" 
+},
+{ name: "stealer6", 
+ description: "stealer6" 
+},
+{ name: "stealer7", 
+ description: "stealer7" 
+},
+{ name: "stealer8", 
+ description: "stealer8" 
+},
+{ name: "stealer9", 
+ description: "stealer9" 
+},
+{ name: "stealer10", 
+ description: "stealer10" 
+},
+{ name: "stealer11", 
+ description: "stealer11" 
+},
+{ name: "stealer12", 
+ description: "stealer12" 
+},
+{ name: "stealer13", 
+ description: "stealer13" 
+},
+{ name: "stealer14", 
+ description: "stealer14" 
+},
+{ name: "stealer15", 
+ description: "stealer15" 
+},
+{ name: "stealer17", 
+ description: "stealer17" 
+},
+{ name: "stealer18", 
+ description: "stealer18" 
+},
+{ name: "stealer19", 
+ description: "stealer19" 
+},
+{ name: "stealer20", 
+ description: "stealer20" 
+},
+{ name: "stealer21", 
+ description: "stealer21" 
+},
+{ name: "stealer22", 
+ description: "stealer22" 
+},
+{ name: "stealer23", 
+ description: "stealer23" 
+},
+{ name: "stealer24", 
+ description: "stealer24" 
+},
+{ name: "stealer25", 
+ description: "stealer25" 
+},
+{ name: "stealer26", 
+ description: "stealer26" 
+},
+{ name: "stealer27", 
+ description: "stealer27" 
+},
+{ name: "stealer28", 
+ description: "stealer28" 
+},
+{ name: "stealer29", 
+ description: "stealer29" 
+},
+{ name: "createdate", 
+ description: "createdate" 
+},
+{ name: "journallastmodifieddate", 
+ description: "journallastmodifieddate" 
+},
+{ name: "createdatefix", 
+ description: "createdatefix" 
+},
+{ name: "journallastmodifieddatefix", 
+ description: "journallastmodifieddatefix" 
+},
+{ name: "_merge2", 
+ description: "_merge2" 
+},
+{ name: "_merge3", 
+ description: "_merge3" 
+},
+{ name: "date_start1", 
+ description: "date_start1" 
+},
+{ name: "date_end1", 
+ description: "date_end1" 
+},
+{ name: "date_start2", 
+ description: "date_start2" 
+},
+{ name: "date_end2", 
+ description: "date_end2" 
+},
+{ name: "date_start3", 
+ description: "date_start3" 
+},
+{ name: "date_end3", 
+ description: "date_end3" 
+},
+{ name: "date_start4", 
+ description: "date_start4" 
+},
+{ name: "date_end4", 
+ description: "date_end4" 
+},
+{ name: "date_start5", 
+ description: "date_start5" 
+},
+{ name: "date_end5", 
+ description: "date_end5" 
+},
+{ name: "date_start6", 
+ description: "date_start6" 
+},
+{ name: "date_end6", 
+ description: "date_end6" 
+},
+{ name: "date_start7", 
+ description: "date_start7" 
+},
+{ name: "date_end7", 
+ description: "date_end7" 
+},
+{ name: "date_start8", 
+ description: "date_start8" 
+},
+{ name: "date_end8", 
+ description: "date_end8" 
+},
+{ name: "_merge4", 
+ description: "_merge4" 
+},
+{ name: "manualcoachingstep", 
+ description: "manualcoachingstep" 
+}
+]
