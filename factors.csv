@@ -1,52 +1,52 @@
 name,description
 subjectid,subjectid
-profilecreatedate,profilecreatedate
+profilecreatedate,profile create date
 age,age
-birthyear,birthyear
+birthyear,birth year
 gender,gender
 occupation,occupation
-jobposition,jobposition
+jobposition,job position
 children,children
-coachingflag,coachingflag
-automatedcoachingflag,automatedcoachingflag
+coachingflag,coaching flag
+automatedcoachingflag,automated coaching flag
 rev,rev
 state,state
 zip,zip
 zipfix,zipfix
-lifestyle2,What time do you have to wake up on weekdays/workdays in order to start your day successfully?
-lifestyle11,How many days during a typical week do you wake up early because of light coming in from outside?
-lifestyle3,How many days during a typical week do you hit the snooze button more than 2 times?
-lifestyle12,Do you have a mattress more than 7 years old?
-lifestyle1,Is your pillow more than 2 years old?
-lifestyle4,"Work irregular shifts, split shifts, or the night shift?"
-lifestyle5,Travel and/or sleep away from your usual bed?
-lifestyle6,"Smoke or use any other nicotine product, including nictotine gum or patches?"
-lifestyle8,Drink more than 3 caffeinated beverages in a day?
-lifestyle9,Drink any caffeinated beverages after 3:00pm?
+lifestyle2,Wake up time to start your day successfully?
+lifestyle11,Days wake up early due to light?
+lifestyle3,Frequency hit the snooze button?
+lifestyle12,Old mattress?
+lifestyle1,Old pillow?
+lifestyle4,Work irregular shifts?
+lifestyle5,Away from your usual bed?
+lifestyle6,Smoke?
+lifestyle8,Drink caffeinated beverages?
+lifestyle9,Drink caffeinated beverages after 3:00pm?
 sleepertype11,Nap or doze off after dinner time?
-sleepertype13,Drink alcohol socially within 3 hours of bedtime or use alcohol to help you fall
+sleepertype13,Drink alcohol within 3 hours of bedtime?
 sleepertype14,Exercise within 3 hours of going to bed?
 sleepertype15,Eat a full meal within 2 hours of bedtime?
-sleepertype16,Have emotional discussions close to bedtime that prevent you from falling asleep
-sleepertype17,"Use the computer, phone, or TV, or work within 1 hour of bedtime?"
-sleepertype18,"Do anything in your bed other than sleep or have sex (i.e. work in bed, read, etc.)?"
+sleepertype16,Have emotional discussions close to bedtime?
+sleepertype17,"Use computer, phone, or TV, or work within 1 hour of bedtime?"
+sleepertype18,Do anything in your bed other than sleep or have sex?
 sleepertype19,Go to bed when you are most sleepy?
 sleepertype20,Catch a second wind at bedtime and then find it difficult to fall asleep?
-sleepertype21,"Go to bed at the same time (within 20 minutes), including weekends?"
+sleepertype21,"Go to bed at the same time, including weekends?"
 sleepertype22,Read in bed with a bright overhead light?
-sleepertype23,"Worry about work, world events, finances or family issues while lying in bed?"
-sleepertype24,"Find that you are unable to ""turn off your mind"" when it's time to go to sleep?"
-sleepertype25,Find that sleep becomes a lower priority because of other needs?
-sleeperclassification1,"During a typical week, how long does it take you to fall asleep at night?"
-sleeperclassification2,"In a typical week, how many times do you wake up during the night?"
-sleeperclassification3,How much sleep do you think you need to feel your best every day?
-sleeperclassification4,"Share your bed with a pet, child, or partner, and find that it disrupts your sleep?"
+sleepertype23,Worry while lying in bed?
+sleepertype24,"Unable to ""turn off your mind""?"
+sleepertype25,Sleep a lower priority because of other needs?
+sleeperclassification1,How long does it take you to fall asleep at night?
+sleeperclassification2,Frequency of waking up during the night?
+sleeperclassification3,Percieved sleep needed to feel your best every day?
+sleeperclassification4,Share your bed and find that it disrupts your sleep?
 sleeperclassification5,Have your sleep disrupted by noise?
 sleeperclassification6,Need to use the restroom after falling asleep?
 sleeperclassification7,Go to bed thirsty or wake up in the night needing a drink of water?
-sleeperclassification8,Have your sleep disturbed by someone in your household (such as a child or a pet)?
-sleeperclassification10,Notice that it is too hot or cold in your bedroom to be comfortable for sleeping?
-sleeperclassification9,"In general, when you wake up in the morning, how do you feel you slept that night?"
+sleeperclassification8,Sleep disturbed by someone in your household?
+sleeperclassification10,Too hot or cold in your bedroom for sleeping?
+sleeperclassification9,How do you feel you slept that night?
 goal9,Decrease the time that it takes me to fall asleep
 goal10,Sleep through the entire night
 goal11,Get more sleep at night
@@ -63,7 +63,7 @@ genderfix,genderfix
 occupationfix,occupationfix
 jobpositionfix,jobpositionfix
 revfix,revfix
-lifestyle2fix,What time do you have to wake up on weekdays/workdays in order to start your day successfully?
+lifestyle2fix,Wake up time to start your day successfully?
 zip_state,zip_state
 nightid,nightid
 recorddate,recorddate
@@ -152,3 +152,5 @@ date_start8,date_start8
 date_end8,date_end8
 _merge4,_merge4
 manualcoachingstep,Assigned to Manual Step
+recorddayofyear,recorddayofyear
+clusters,clusters
