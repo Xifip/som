@@ -16,4 +16,4 @@ CSV.foreach("factors.csv", :headers => true) do |row|
    Factor.create(factor)
 end
 
-Run.create(title: "first run", s3folder: "run1")
+#Run.create(title: "first run", s3folder: "run1")
