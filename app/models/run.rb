@@ -19,7 +19,8 @@ class Run < ActiveRecord::Base
         :secret_access_key => ENV['S3_SECRET']     
       )
     end
-    objs = []  
+    objs = []
+    #debugger  
     s3.buckets['somrst'].objects.with_prefix(self.s3folder.to_s + '/').each do |object|
       objs.push object.key
     end
