@@ -1,0 +1,21 @@
+%p.row.span8
+  %h2.span4 First create a folder on S3 and add the plots that you want to share
+%p.row.span8 
+= form_for(run, :url => runs_url(@run)) do |f|
+  = render partial: 'shared/error_messages', locals: {object: f.object}
+  .field                                             
+    %p.row.span8.spacer30  
+    %p.row.span8
+      .span1
+        = f.label :title, "Title"
+      .span6  
+        = f.text_field :title
+    %p.row.span8.spacer30
+    %p.row.span8
+      .span1
+        = f.label :s3folder, "S3 Folder Name"
+      .span6  
+        = f.text_field :s3folder 
+    %p.row.span8.spacer30                  
+    %p.row.span8  
+      = f.submit "Save run", class: "btn btn-large btn-primary"

@@ -2,7 +2,7 @@ Som::Application.routes.draw do
   
   devise_for :users
 
-  root :to => 'runs#index'
+  root :to => 'static_pages#home'
   
   resources :results 
   

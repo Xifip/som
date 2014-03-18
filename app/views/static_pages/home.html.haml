@@ -1,0 +1,23 @@
+- if user_signed_in?
+  .row
+    %h3.well.well-small 
+      =link_to 'View the results', runs_path    
+    .spacer200      
+- else
+  .row.center.hero-unit
+    .row
+      %h2 Self Organising Map (SOM) results
+      %h2.span2.offset5
+        \#{link_to "Login",  new_user_session_path, class: "btn btn-primary btn-lg btn-block"}
+      .spacer50
+    .row  
+      %Span
+        no account?  
+      \#{link_to "Sign up here", new_user_registration_path}                
+  .row.home-img 
+    .span4
+      =image_tag("https://s3-us-west-2.amazonaws.com/somrst/run1/clusters.png")
+    .span4
+      =image_tag("https://s3-us-west-2.amazonaws.com/somrst/run1/zq.png")
+    .span4
+      =image_tag("https://s3-us-west-2.amazonaws.com/somrst/run1/age.png")

@@ -1,5 +1,5 @@
 class Run < ActiveRecord::Base
-  attr_accessible :title, :path
+  attr_accessible :title, :path, :s3folder
 
   has_many :results, :dependent => :destroy
 
@@ -8,8 +8,10 @@ class Run < ActiveRecord::Base
   def getS3Objs
     if Rails.env.development?
       s3 = AWS::S3.new(
-        :access_key_id => S3_CONFIG[::Rails.env]["access_key_id"],
-        :secret_access_key => S3_CONFIG[::Rails.env]["secret_access_key"]      
+        #:access_key_id => S3_CONFIG[::Rails.env]["access_key_id"],
+        #:secret_access_key => S3_CONFIG[::Rails.env]["secret_access_key"] 
+        :access_key_id     => ENV['S3_KEY'],
+        :secret_access_key => ENV['S3_SECRET']               
       )
     elsif Rails.env.production?
       s3 = AWS::S3.new(
@@ -18,7 +20,7 @@ class Run < ActiveRecord::Base
       )
     end
     objs = []  
-    s3.buckets['somrst'].objects.with_prefix('run' + self.id.to_s + '/').each do |object|
+    s3.buckets['somrst'].objects.with_prefix(self.s3folder.to_s + '/').each do |object|
       objs.push object.key
     end
 
@@ -30,7 +32,7 @@ class Run < ActiveRecord::Base
 
   def create_results
     Factor.all.each do |factor|
-      self.results.create(factor_id: factor.id, name: factor.description, url: "https://s3-us-west-2.amazonaws.com/somrst/run" + self.id.to_s + "/" + factor.name + ".png")
+      self.results.create(factor_id: factor.id, name: factor.description, url: self.path.to_s + factor.name + ".png")
     end  
   end
 end

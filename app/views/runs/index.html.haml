@@ -1,5 +1,9 @@
-.span8
-%h3 SOM runs
-- if @runs.any?
-  %ul.runs
-    = render @runs
+
+.row
+  \#{link_to "New Run", new_run_path, class: "btn btn-primary btn-lg"}
+.row
+  %h3.span8 SOM runs
+.row  
+  - if @runs.any?
+    %ul.span8.runs
+      = render @runs
